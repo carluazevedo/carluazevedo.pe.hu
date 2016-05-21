@@ -1,0 +1,16 @@
+/**
+ * Estilo para formatação de tags personalizadas da tabela
+ */
+td:nth-child(2) {
+    font-family: monospace;
+    font-weight: bold;
+}
+td gr {
+    color: blue;
+}
+td rd {
+    color: green;
+}
+.btn#top {
+    margin-bottom: 10px;
+}
