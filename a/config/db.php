@@ -13,10 +13,14 @@ defined('_SCHECK') or die('Acesso negado.');
  * DB_PASS: the password of the above user
  * DB_NAME: name of the database. please note: database and database table are not the same thing
  */
+#DB_HOST: localhost
+#DB_NAME: u632821943_cadb
+#DB_USER: u632821943_causr
+#DB_PASS: 225785_db
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'u632821943_cadb');
-define('DB_USER', 'u632821943_causr');
-define('DB_PASS', '225785_db');
+define('DB_USER', 'mysql_user');
+define('DB_PASS', '');
 
 $db_connection = null;
 
