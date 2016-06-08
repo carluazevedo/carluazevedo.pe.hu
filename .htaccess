@@ -1,0 +1,24 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+# Avoid directory listing
+Options -Indexes
+
+# Prevents that files are accessed directly from the outside
+<FilesMatch "\.(htaccess)$">
+	order allow,deny
+	deny from all
+</FilesMatch>
+
+#<FilesMatch "(README.md)$">
+#	order allow,deny
+#	deny from all
+#</FilesMatch>
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:yzudyH
+ErrorDocument 403 /403.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE yzudyH:ERRORPAGEID
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:paXaze
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE paXaze:ERRORPAGEID
