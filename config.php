@@ -13,5 +13,5 @@ class Config {
     public static $sitename = 'WebSIS';
     # ATENÇÃO! Utilizar 'trailing slash'
     # TODO: Criar função para determinar diterório base
-    public static $basedir  = '/carluazevedo.pe.hu/';
+    public static $basedir  = '/carluazevedo.pe.hu.2/';
 }
